@@ -7,7 +7,7 @@ let imagebtn = document.querySelector("#image");
 let image = document.querySelector("#image img");
 let imageinput = document.querySelector("#image input");
 
-const Api_Url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=YOUR_API_KEY";
+const Api_Url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyDbYrC0BuFL_o-AMvB46JpECHsFP9fW1a4";
 let user = {
     message: null,
     file: {
@@ -147,7 +147,7 @@ function handlechatResponse(userMessage) {
 
     setTimeout(() => {
         let html = `<div style = "display: flex;" > 
-                        <img src="./img/logo.webp" alt="" id="aiImage" width="10%">
+                        <img src="./img/logo.webp" alt="" id="aiImage" width="10%" height="15%">
                         <div class="ai-chat-area">
                         <img src="./img/icons8-loading.gif" alt="" class="load" width="50px">
                         </div>
