@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ai Chat Bot</title>
+    <!-- Favicon for browser tab -->
+    <link rel="icon" type="image/png" href="./img/logo.webp">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Chat Container -->
+    <div class="chat-container">
+        <div id="brand">
+            <img src="./img/logo.webp" id="logo" height="100px" alt="FashionBot" id="brand-logo"><h1>Fashion Bot</h1>
+        </div>
+        <!-- AI Chat Box -->
+        <div class="ai-chat-box">
+            <img src="./img/logo.webp" alt="" id="aiImage" width="10%">
+            <div class="ai-chat-area">
+                FashionBot! your personalized assistant for Fashion. Ask me anything about clothing, accessories, or personal style!
+            </div>
+        </div>
+    </div>
+    <!-- Prompt Area -->
+    <div class="prompt-area">
+        <input type="text" id="prompt" placeholder="Ask Fashion Bot">
+        <div class="input-btns">
+            <div class="left-btns">
+                <button id="mic"><img src="./img/headset-solid.svg" alt="Microphone"></button>
+                <button id="image">
+                    <img src="./img/img.svg" alt="">
+                    <input type="file" accept="images/*" hidden>
+                </button>
+            </div>
+            <button id="submit"><img src="./img/send-icon.png" alt=""></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
