@@ -230,10 +230,10 @@ body {
     background-color: #302f2f; /* Dark gray/black */
     border-radius: 16px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-    padding: 20px;
+    padding: 15px 25px;
     color: #e0e0e0; /* Light gray for text */
-    max-width: 260px;
-    margin-bottom: 16px;
+    max-width: 200px;
+    margin-bottom: 10px;
     position: absolute;
     top: 1rem;
     left: 1rem;
@@ -241,7 +241,7 @@ body {
   
   .group-card h2 {
     font-size: 1.5em;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
     color: white; /* Soft blue highlight */
     text-align: center;
   }
@@ -252,7 +252,7 @@ body {
   }
   
   .group-card li {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     padding: 10px;
     background-color: #2a2a2a; /* Medium dark gray for list items */
     border-radius: 12px;
