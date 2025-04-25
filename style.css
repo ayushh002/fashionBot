@@ -1,13 +1,14 @@
 ::-webkit-scrollbar{
-    background: #1a1a1a; 
+    background: #1a1a1a; /* Dark Gray Thumb */
+    /* border-radius: 5px; */
     width:10px;
 }
 ::-webkit-scrollbar-thumb {
-    background: #393838;
+    background: #393838; /* Dark Gray Thumb */
     border-radius: 5px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #3b3a3a; 
+    background: #3b3a3a; /* Lighter Shade on Hover */
 }
 /* Reset some default styles */
 body, h1, p, input, button {
@@ -93,6 +94,7 @@ body {
     background-color: transparent;
     color: #e0e0e0;
     line-height: 1.6;
+    /* text-align: justify; */
 }
 
 .ai-chat-area {
@@ -223,12 +225,13 @@ body {
     padding: 5px;
     border-radius: 8px;
 }
+
 .group-card { 
-    background-color: #302f2f;
+    background-color: #302f2f; /* Dark gray/black */
     border-radius: 16px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
     padding: 20px;
-    color: #e0e0e0;
+    color: #e0e0e0; /* Light gray for text */
     max-width: 260px;
     margin-bottom: 16px;
     position: absolute;
@@ -239,7 +242,7 @@ body {
   .group-card h2 {
     font-size: 1.5em;
     margin-bottom: 16px;
-    color: white;
+    color: white; /* Soft blue highlight */
     text-align: center;
   }
   
@@ -251,11 +254,12 @@ body {
   .group-card li {
     margin-bottom: 12px;
     padding: 10px;
-    background-color: #2a2a2a;
+    background-color: #2a2a2a; /* Medium dark gray for list items */
     border-radius: 12px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
     font-size: 0.95em;
   }
+  
 /* Responsive adjustments */
 @media (max-width: 600px) {
     .chat-container {
